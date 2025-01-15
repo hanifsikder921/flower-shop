@@ -1,0 +1,646 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", serif;
+}
+
+:root {
+    --hero-bg: rgba(229, 84, 115, 0.1);
+    --buttong-bg: rgb(229, 84, 115);
+    --off: rgb(229, 84, 115);
+    --support: rgba(39, 39, 39, 0.05);
+    --card-1: rgba(167, 33, 98, 0.15);
+    --card-2: rgba(5, 151, 160, 0.15);
+    --card-3: rgba(71, 125, 17, 0.15);
+    --text-title-color: rgb(39, 39, 39);
+    --subtitle-color: rgba(39, 39, 39, 0.6);
+    --footer-bg: rgb(17, 16, 16);
+    --suportfont-color: color: color: rgba(39, 39, 39, 0.8);
+    ;
+    --hot-bg: rgba(229, 84, 115, 0.05);
+    ;
+}
+
+
+.btn {
+    background-color: var(--buttong-bg);
+    color: white;
+    border: none;
+    padding: 20px 43px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 180px;
+}
+
+.btn>a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Header Section Design Start======================================= */
+header {
+    background-color: var(--hero-bg);
+    display: flex;
+    padding: 0px 240px;
+    gap: 97px;
+}
+
+.container {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    padding: 197px 0px 147px;
+}
+
+.container h1 {
+    color: var(--text-title-color);
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 96px;
+}
+
+.container p {
+    color: var(--subtitle-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-right: 140px;
+}
+
+.cover {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/* Feature Section Start===========================================> */
+
+.feature {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    padding: 178px 633px 48px;
+    text-align: center;
+}
+
+.feature h3 {
+    color: var(--text-title-color);
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.feature p {
+    color: var(--subtitle-color);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Feature Container Design Start=======================================> */
+.feature-container {
+    display: flex;
+    justify-content: center;
+    padding: 0px 240px;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+
+.feature-container .feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.feature-card .images {
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    margin-bottom: 32px;
+    overflow: hidden;
+    width: 464px;
+    justify-content: center;
+    align-items: flex-end;
+    height: 538px;
+}
+
+.feature-card .im1 {
+    background-color: var(--card-1);
+}
+
+.feature-card .im2 {
+    background-color: var(--card-2);
+}
+
+.feature-card .im3 {
+    background-color: var(--card-3);
+}
+
+.im2 img {
+    margin-bottom: 50px;
+}
+
+.feature-card h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    border-bottom: 1px solid black;
+}
+
+/* Support Section Design Start====================================================> */
+
+.support {
+    width: 1440px;
+    height: 320px;
+    background-color: var(--support);
+    margin: 0 auto;
+    display: flex;
+    padding: 86px 175px;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.support .support-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.support .support-card h5 {
+    color: var(--suportfont-color);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* hot-deal Section Design Start===================================================> */
+
+.hot-deal {
+    width: 100vw;
+    height: 620px;
+    background-color: var(--hot-bg);
+    display: flex;
+    gap: 186px;
+    align-items: center;
+    justify-content: center;
+    margin: 128px 0px;
+}
+
+.hot-deal .con {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.bttn {
+    margin: 0 auto;
+}
+
+/* instargam Seretion design==========================================> */
+.instagram {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.instagram h3 {
+    color: var(--text-title-color);
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.instagram p {
+    color: var(--subtitle-color);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* instagram Grid Image design Start======================================> */
+.show {
+    display: flex;
+    width: calc(100vw - 240px);
+    margin: 0 auto;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+/* Newsletter Section Design Start======================================> */
+.newsletter {
+    width: calc(100vw - 480px);
+    height: 449px;
+    background-image: url(asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 128px auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.newsletter h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.newsletter p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--subtitle-color);
+}
+
+.newsletter .sub {
+    display: flex;
+    padding: 48px 287px;
+    gap: 10px;
+
+}
+
+
+input[type="text"] {
+
+    width: 80%;
+    padding: 20px 0px;
+    text-align: left;
+    padding-left: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+
+}
+
+
+input[type="button"] {
+    width: auto;
+    padding: 20px 30px;
+    background-color: var(--buttong-bg);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Footer Design Start====================================================> */
+
+
+.fcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 128px 0px;
+    gap: 24px;
+    background-color: var(--footer-bg);
+    text-align: center;
+}
+
+.fcontent h4 {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+}
+
+.fcontent .des {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.fcontent .copyright {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Design===================================================> */
+
+@media screen and (max-width:576px) {
+
+
+    /* Header Section Design Start======================================= */
+
+    header {
+        flex-direction: column-reverse;
+        padding: 0px 10px;
+
+    }
+
+    header .container h1 {
+        font-size: 40px;
+        line-height: normal;
+
+    }
+
+
+    header .cover .photo img {
+        width: 250px;
+        height: 300px;
+
+    }
+
+    .container {
+        padding: 20px 0px 20px;
+    }
+
+    .container p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        padding: 0px;
+    }
+
+    .cover {
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+
+
+    /* Feature Section Start===========================================> */
+
+    .feature {
+        gap: 0px;
+        padding: 25px 20px 30px;
+    }
+
+    .feature h3 {
+        font-size: 30px;
+    }
+
+    .feature p {
+        padding: 20px;
+    }
+
+    /* Feature Container Design Start=======================================> */
+    .feature-container {
+        padding: 0px 10px;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 50px;
+    }
+
+    .feature-container .feature-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+    .feature-card .images {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .feature-card .images img {
+        padding: 20px 20px 0px;
+    }
+
+
+    .im2 img {
+        margin-bottom: 20px;
+    }
+
+    .feature-card h4 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+
+
+    /* Support Section Design Start====================================================> */
+
+    .support {
+        width: calc(100vw - 50px);
+        height: auto !important;
+        background-color: var(--support);
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: space-between;
+        border-radius: 8px;
+    }
+
+    .support .support-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .support .support-card h5 {
+        color: var(--suportfont-color);
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    /* hot-deal Section Design Start===================================================> */
+
+    .hot-deal {
+        width: calc(100vw - 50px);
+        height: auto;
+        gap: 20px;
+        margin: 50px auto;
+        flex-direction: column-reverse;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    .photos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .photos img {
+        width: 80%;
+        height: 80%;
+    }
+
+    /* instagram Grid Image design Start======================================> */
+    .show {
+        width: calc(100vw - 20px);
+        display: grid;
+        gap: 10px;
+        justify-content: space-around;
+        grid-template-columns: auto auto;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .show img {
+        width: 100%;
+    }
+
+    /* Newsletter Section Design Start======================================> */
+    .newsletter {
+        width: calc(100vw - 20px);
+        height: 200px;
+        flex-direction: column;
+        margin: 50px auto;
+        border-radius: 8px;
+
+
+
+    }
+
+    .newsletter h2 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+
+    .newsletter .sub {
+        display: flex;
+        padding: 20px;
+        gap: 10px;
+        flex-direction: column;
+
+    }
+
+
+    input[type="text"] {
+
+        width: 100%;
+        padding: 10px 0px;
+        text-align: center;
+
+    }
+
+
+    input[type="button"] {
+        width: max-content;
+        padding: 8px 10px;
+        font-size: 15px;
+        margin: 0 auto;
+    }
+
+    
+/* Footer Design Start====================================================> */
+
+
+.fcontent {
+    padding: 50px 0px;
+    gap: 20px;
+ 
+}
+
+.fcontent h4 {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.fcontent .des {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
